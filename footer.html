@@ -5,8 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        #footer{
+            /* border: 4px solid red; */
+            width: 100%;
+            height: 728px;
+        }
+        #backdiv{
+            width: 100%;
+            height: 50px;
+            background-color: #37475a;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+        }
+        #backdiv:hover{
+            background-color: #4d5968;
+        }
+        #backdiv>p{
+            font-family: Arial, sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            padding-top: 15px;
+        }
+        #first_step{
+            background-color: #232f3e;
+            width: 100%;
+            height: 300px;
+            display:flex ;
+            /* border-bottom: 0.2vh solid white; */
+        }
+        #second_step{
+            border-top: 1px solid #3a4553;
+            background-color: #232f3e;
+            width: 100%;
+            height: 155px;
+            display: flex;
+        }
+        #third_step{
+            background-color: #131a22;
+            width: 100%;
+            height: 223px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="footer">
+        <div id="backdiv"><p>Back to top</p></div>
+        <div id="first_step"></div>
+        <div id="second_step"></div>
+        <div id="third_step"></div>
+    </div>
 </body>
 </html>
