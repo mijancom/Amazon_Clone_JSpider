@@ -40,29 +40,170 @@
             display:flex ;
             /* border-bottom: 0.2vh solid white; */
         }
+        #first_step>div{
+            /* border: 1px solid red; */
+            width: 1000px;
+            height: 80%;
+            margin: auto;
+            display: flex;
+        }
+        .main1{
+            /* border: 1px solid teal; */
+            width: 200px;
+            height: 90%;
+            margin: auto;
+            color: #d5dbe4 ;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main1 a{
+            color: #d5dbe4;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration-line: none;
+        }
+        .main1 a:hover{
+            text-decoration-line: underline;
+        }
+        .main1 p{
+            font-size: 17px;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-weight: bolder;
+        }
+        .main2{
+            /* border: 1px solid teal; */
+            width: 210px;
+            height: 50%;
+            margin: 10px auto;
+            color: #d5dbe4 ;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main2 a{
+            width: 150px;
+            /* height: 1px; */
+            color: #d5dbe4;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            text-decoration-line: none;
+        }
+        .main2 a:hover{
+            text-decoration-line: underline;
+        }
+        .main2 p{
+            width: 150px;
+            /* height: 1px; */
+            font-size: 17px;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-weight: bolder;
+        }
         #second_step{
             border-top: 1px solid #3a4553;
             background-color: #232f3e;
             width: 100%;
             height: 155px;
+            /* display: flex; */
+        }
+        #second_step>:nth-child(1){
+            /* border: 1px solid red; */
+            height: 20%;
+            width: 300px;
+            margin: 20px auto;
             display: flex;
+        }
+        #second_step>:nth-child(1) img{
+            width: 90px;
+            height: 25px;
+            margin-top: 10px;
+
+        }
+        #second_step>:nth-child(1) img:hover{
+            cursor: pointer;
+        }
+        #button{
+            margin-left: 70px;
+            background: none;
+            border:1px solid #80848a ;
+            color: #d5dbe4;
+            height: 35px;
+            width: 120px;
+            border-radius: 7%;
+        }
+        #second_step>:nth-child(2){
+            /* border: 1px solid red; */
+            width: 900px;
+            height: 40%;
+            display: flex;
+            margin: auto;
+           
+            
+            flex-wrap: wrap;
+            /* text-align: center; */
+        }
+        #second_step>:nth-child(2) a{
+            text-align: center;
+            margin: auto;
+            color: #d5dbe4;
+            font-size: 12px;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            padding: 6px;
+            text-decoration-line:none;
+            
+        }
+        #second_step>:nth-child(2) a:hover{
+            text-decoration-line: underline;
+        }
+        #second_step>:nth-child(2) div{
+            width: 200px;
+            height: 30px;
+            margin: auto;
         }
         #third_step{
             background-color: #131a22;
             width: 100%;
             height: 223px;
         }
-        #third_step>div{
-            border: 1px solid red;
-            width: 100%;
-            height: 70px;
+        #third_step>:nth-child(1){
+            /* border: 1px solid red; */
+            width: 1000px;
+            height: 70%;
+            /* margin-top: 20px; */
+            margin: auto;
             display: flex;
+            flex-wrap: wrap;
+            padding-top: 30px;
         }
-        #third_step:nth-child(1){
-            border:1px solid teal;
-            width: 200px;
-            height: 100%;
-            display: flex;
+        #third_step>:nth-child(1) div{
+            /* border: 1px solid white; */
+            height: 38%;
+            width: 198px;
+            /* color: #d3e6e6; */
+            /* margin-top: 20px; */
+            
+            
+        }
+        #third_step>:nth-child(1) p{
+            font-family: "Amazon Ember", Arial, sans-serif;
+            font-size: 10.5px;  
+            
+        }
+        .bold1{
+            font-weight: bold;
+            color:#d5dbe4;
+        }
+        .Pcolor{
+            color: #80848a;
+        }
+        #third_step>:nth-child(2){
+            /* border: 1px solid red; */
+            height: 30%;
+            width: 350px;
+            margin: auto;
+            color: #cacfd6;
+            font-size: 13px;
+            text-align: center;
 
         }
     </style>
@@ -70,33 +211,140 @@
 <body>
     <div id="footer">
         <div id="backdiv"><p>Back to top</p></div>
-        <div id="first_step"></div>
-        <div id="second_step"></div>
+        <div id="first_step">
+            <div>
+                <div class="main2">
+                    <p>Get to Know Us</p>
+                    <a href="">About Us</a>
+                    <a href="">Careers</a>
+                    <a href="">Press Releases</a>
+                    <a href="">Amazon Science</a>
+                </div>
+                <div class="main2">
+                    <p>Connect with Us</p>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                </div>
+                <div class="main1">
+                    <p>Make Money with Us</p>
+                    <a href="">Sell on Amazon</a>
+                    <a href="">Sell under Amazon Accelerator</a>
+                    <a href="">Amazon Global Selling</a>
+                    <a href="">Become an Affiliate</a>
+                    <a href="">Fulfilment by Amazon</a>
+                    <a href="">Advertise Your Products</a>
+                    <a href="">Amazon Pay on Merchants</a>
+                </div>
+                <div class="main1">
+                    <p>Let Us Help You</p>
+                    <a href="">COVID-19 and Amazon</a>
+                    <a href="">Your Account</a>
+                    <a href="">Returns Centre</a>
+                    <a href="">100% Purchase Protection</a>
+                    <a href="">Amazon App Download</a>
+                    <a href="">Amazon Assistant Download</a>
+                    <a href="">Help</a>
+
+                </div>
+            </div>
+        </div>
+        <div id="second_step">
+            <div>
+            <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/220px-Amazon_logo.svg.png" alt=""></div>
+            <div><select id="button">
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Bengali</option>
+                <option>Tamil</option>
+              </select></div>
+            </div>
+            <div>
+                <a href="">Australia</a>
+                <a href="">Brazil</a>
+                <a href="">Canada</a>
+                <a href="">China</a>
+                <a href="">France</a>
+                <a href="">Germany</a>
+                <a href="">Italy</a>
+                <a href="">Japan</a>
+                <a href="">Mexico</a>
+                <a href="">Netherland</a>
+                <a href="">Poland</a>
+                <a href="">Singapore</a>
+                <a href="">Spain</a>
+                <a href="">Turkey</a>
+                <a href="">United Arab Emirates</a>
+                <div><a href="">United Kingdom</a>
+                    <a href="">United States</a></div>
+            </div>
+        </div>
         <div id="third_step">
             <div>
-                <div>
-                    <a href="######">AbeBooks Books, art & collectibles</a>
+                <div> <p class="bold1">AbeBooks</p><p class="Pcolor"> Books, art </p> <p class="Pcolor">& collectibles</p></div>
+                <div> 
+                    <p class="bold1">Amazon Web Services</p>
+                    <p class="Pcolor">Scalable Cloud</p>
+                    <p class="Pcolor">Computing Services</p>
+                    </div>
+                <div> 
+                    <p class="bold1">Audible</p>
+                    <p class="Pcolor"> Download</p>
+                    <p class="Pcolor">Audio Books</p>
                 </div>
                 <div> 
-                    <a href="######">Amazon Web Services Scalable Cloud Computing Services</a>
+                    <p class="bold1">	DPReview
+                        
+                        </p>
+                    <p class="Pcolor"> Digital </p>
+                    <p class="Pcolor">Photography</p>
                 </div>
                 <div> 
-                    <a href="">Audible Download Audio Books</a>
+                    <p class="bold1">IMDb
+                        
+                        </p>
+                    <p class="Pcolor"> Movies, TV </p>
+                    <p class="Pcolor">& Celebrities</p>
                 </div>
                 <div> 
-                    <a href="####">DPReview Digital Photography</a>
+                    <p class="bold1">	Shopbop
+                       
+                        
+                        
+                    </p>
+                <p class="Pcolor"> Designer </p>
+                <p class="Pcolor">Fashion Brands</p>
                 </div>
                 <div> 
-                    <a href="####">IMDb Movies, TV & Celebrities</a>
+                    <p class="bold1">	Amazon Business
+                        
+                    </p>
+                <p class="Pcolor"> Everything For </p>
+                <p class="Pcolor">Your Business</p>
                 </div>
+                <div> 
+                    <p class="bold1">Prime Now
+                        
+                    </p>
+                <p class="Pcolor"> 2-Hour Delivery </p>
+                <p class="Pcolor">on Everyday Items</p>
+
+                </div>
+                <div> 
+                    <p class="bold1">Amazon Prime Music
+                        
+                        </p>
+                    <p class="Pcolor"> 90 million songs, ad-free </p>
+                    <p class="Pcolor">Over 15 million podcast episodes</p>
+                </div>
+               
             </div>
             <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <p>Conditions of Use & Sale
+                    Privacy Notice
+                    Interest-Based Ads</p>
+                <p>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
             </div>
-            <div></div>
         </div>
     </div>
 </body>
