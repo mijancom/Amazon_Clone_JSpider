@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar</title>
     <style>
         *{
             box-sizing: border-box;
@@ -18,15 +18,51 @@
             background-color: #131921;
             display: flex;
         }
+        #navbar>:nth-child(1){
+            width: 300px;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            margin-left: 10px;
+        }
+        #logo{
+            width: 45%;
+            height: 80%;
+            /* border: 1px solid teal; */
+            margin-top: 5px;
+        }
+        #logo:hover{
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        #logo h1{
+            color: white;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            display: flex;
+            width: 100px;
+            margin-left: 5px;
+
+        }
+        #logo img{
+            width: 60px;
+            height: 12px;
+            margin:0px 0px 5px 10px;
+        }
     </style>
 </head>
 <body>
     <div id="navbar">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            <div id="logo">
+                <h1>amazon <p style="font-size:14px; margin-top: 13px;">.in</p></h1>
+                <img src="https://o.remove.bg/downloads/f6cd5d73-56ef-484d-8028-41c8ae09889b/logo-removebg-preview.png" alt="Amazon Logo">
+            </div>
+            <div>
+            </div>
+        </div>
         <div></div>
         <div></div>
     </div>
