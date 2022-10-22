@@ -26,19 +26,19 @@
         #logo-location{
             width: 290px;
             height: 100%;
-            /* border: 1px solid red; */
+            /* border: 1px solid #131921; */
             display: flex;
             margin-left: 10px;
         }
         #logo{
             width: 45%;
             height: 80%;
-            /* border: 1px solid teal; */
+            border: 1px solid #131921;
             margin-top: 5px;
         }
         #logo:hover{
             border: 1px solid white;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor:pointer;
         }
         #logo h1{
@@ -59,14 +59,14 @@
         #Location{
             width: 50%;
             height: 80%;
-            /* border: 1px solid teal; */
+            border: 1px solid #131921;
             margin-top: 5px;
             display: flex;
             margin-left: 5px;
         }
         #Location:hover{
             border: 1px solid white;
-            border-radius:5px;
+            border-radius:3px;
             cursor:pointer;
         }
         #Location i{
@@ -77,7 +77,7 @@
         }
         #Location h3{
             color: white;
-            font-size: 13px;
+            font-size: 12px;
             font-family:"Amazon Ember", Arial, sans-serif;
             margin: 0px auto auto 5px;
         }
@@ -132,7 +132,7 @@
             width: 45px;
             height: 100%;
             /* border: 1px solid red; */
-            background-color: #febd69;
+            background-color: #fcc175;
             border-bottom-right-radius: 5px;
             border-top-right-radius:5px ;
             text-align: center;
@@ -156,6 +156,7 @@
             width: 70px;
             height: 100%;
             /* border: 1px solid teal; */
+            border: 1px solid #131921;
             color: white;
             font-size: 13px;
             
@@ -163,7 +164,7 @@
         }
         #language:hover{
             border: 1px solid white;
-            border-radius: 5px;
+            border-radius: 3px;
         }
         #language p{
             margin: 5px auto auto 10px;
@@ -175,20 +176,157 @@
             height: 15px;
             margin-left:20px;
         }
+        #sing-bar{
+            /* border: 1px solid red; */
+            border: 1px solid #131921;
+            height: 100%;
+            width: 135px;
+            /* color: white; */
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 12px;
+        }
+        #sing-bar:hover{
+            border: 1px solid white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #sing-bar p{
+            color: white;
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+        #sing-bar h3{
+            color: white;
+            margin-left: 8px;
+        }
+        #order-return-bar{
+            /* border: 1px solid red; */
+            border: 1px solid #131921;
+            height: 100%;
+            width: 75px;
+            /* color: white; */
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 12px;
+            margin-left: 7px;
+        }
+        #order-return-bar:hover{
+            border: 1px solid white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #order-return-bar p{
+            color: white;
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+        #order-return-bar h3{
+            color: white;
+            margin-left: 8px;
+        }
+        #cart-bar{
+            border: 1px solid #131921;
+            height: 100%;
+            width: 85px;
+            /* color: white; */
+            font-family:"Amazon Ember", Arial, sans-serif;
+            /* font-size: 12px; */
+            margin-left: 5px;
+            /* display:wrap; */
+            /* display: flex; */
+
+        }
+        #cart-bar:hover{
+            border: 1px solid white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #cart-bar a{
+            display: flex;
+            
+        }
+        #cart-bar i{
+            font-size:25px ;
+            color: white;
+            margin-left: 8px;
+            margin-top: 10px;
+        }
+        #cart-bar h3{
+            /* font-size: 12px; */
+            color: white;
+            margin-left: 5px;
+            margin-top: 19px;
+            font-size: 15px;
+        }
+
+
+        /* 2nd-stage-of-Navbar */
+
+
+        #navbar-2nd-stage{
+            width: 100%;
+            height: 39px;
+            background-color: #232f3e;
+            display: flex;
+        }
+        
+        #navbar-2nd-stage-link{
+            height: 70%;
+            width: 1070px;
+            /* border: 1px solid red; */
+            margin: 7px 0px 0px 5px;
+            display: flex;
+            
+        }
+        #navbar-2nd-stage-link div{
+            color: white;
+            margin: auto;
+            border: 1px solid #232f3e;
+            height: 25px;
+        }
+        #navbar-2nd-stage-link div:hover{
+            border: 1px solid white;
+            width: auto;
+            height: 25px;
+            margin: auto;
+            border-radius: 3px;
+        }
+        #navbar-2nd-stage-link a{
+            color: white;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            padding-top: 10px;
+
+        }
+        #navbar-2nd-stage-bar{
+            height: 70%;
+            width: 58px;
+            border: 1px solid white;
+            margin: 7px 0px 0px 10px;
+        }
+        #navbar-2nd-stage-bar a{
+            display: flex;
+            color: white;
+        }
+        #navbar-2nd-stage-bar i{
+            font-size: 18px;
+            margin: 3px 0px 0px 4px;
+        }
     </style>
 </head>
 <body>
     <div id="navbar">
         <div id="logo-location">
             <div id="logo">
-                <h1>amazon <p style="font-size:14px; margin-top: 13px;">.in</p></h1>
+               <a href="https://www.amazon.in/"><h1>amazon<p style="font-size:14px; margin-top: 13px;">.in</p></h1></a> 
                 <img src="https://i.postimg.cc/XJN2xC8Y/logo.png" alt="Amazon Logo">
             </div>
             <div id="Location">
                 <i class='fas fa-map-marker-alt'></i>
                 <div>
-                    <p>Deliver to MIJANUR</p>
-                    <h3>Kolkata 700156</h3>
+                    <a href="https://www.amazon.in"><p>Hello</p></a>
+                    
+                    <h3>Select your address</h3>
                 </div>
             </div>
         </div>
@@ -248,7 +386,7 @@
             </div>
         </div>
         <div id="extra-bar">
-            <a href="####">
+            <a href="https://www.amazon.in">
                 <div id="language">
                     <p>English</p>
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/800px-Flag_of_India.svg.png?20111003033457" alt="">
@@ -257,9 +395,38 @@
 
             </a>
 
-            <div></div>
-            <div></div>
-            <div></div>
+            <div id="sing-bar"><a href="#######">
+                <p>Hello, sing in</p>
+                <h3>Account & Lists</h3>
+            </a></div>
+            <div id="order-return-bar"><a href="#######">
+                <p>Ruterns</p>
+                <h3>& Orders</h3>
+            </a></div>
+            <div id="cart-bar"><a href="#######">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                <h3>Cart</h3>
+            </a></div>
+        </div>
+    </div>
+    <div id="navbar-2nd-stage">
+        <div id="navbar-2nd-stage-bar"><a href="######">
+            <i class="fa-solid fa-bars"></i>
+            <h3>All</h3>
+        </a></div>
+        <div id="navbar-2nd-stage-link">
+            <div><a href="######">Best Sellers</a></div>
+            <div><a href=""> Today's Deals</a></div>
+            <div><a href="">Mobiles</a></div>
+            <div><a href="">Customer Service</a></div>
+            <div><a href="">Electronics</a></div>
+            <div><a href="">Books</a></div>
+            <div><a href="">Fashion</a></div>
+            <div><a href="">Home & Kitchen</a></div>
+            <div><a href="">Prime</a></div>
+            <div><a href="">New Releases</a></div>
+            <div><a href="">Computers</a></div>
+            <div><a href="">Amazon Pay</a></div>
         </div>
     </div>
 </body>
