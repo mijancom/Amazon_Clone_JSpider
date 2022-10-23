@@ -116,15 +116,102 @@
         #new-to-amazon{
             width: 348px;
             height: auto;
-            margin: auto;
+            
             
             /* border: 1px solid red; */
             /* display: flex; */
             /* margin: auto; */
         }
-        #new-to-amazon p{
-            display: flex;
+        #new-to-amazon>p{
+            /* display: flex; */
+            position: relative;
+            left: 631px;
+            bottom: 3px;
+            font-size: 12px;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            color: #6d6d6d;
+
         }
+        #line1{
+            position: relative;
+            left: 390px;
+            width: 130px;
+            top: 18px;
+            /* color: #b60d0d; */
+        }
+        #line2{
+            position: relative;
+            left: 615px;
+            width: 130px;
+            bottom: 21px;
+            /* border: 0.1em solid #a8a8a8; */
+        }
+        #account-create-button{
+            margin: auto;
+            height: 30px;
+            width: 355px;
+            position: relative;
+            bottom: 15px;
+            
+        }
+        #account-create-button button{
+            height: 100%;
+            width: 100%;
+            border: 1px solid #a8a8a8;
+            border-radius: 3px;
+            
+        }
+        #account-create-button button:hover{
+            background-color: #e9e7e7;
+            cursor: pointer;
+        }
+        #sign-in-footer{
+            width: 100%;
+            height: 160px;
+            /* border: 1px solid #252525; */
+            margin-top: 13px;
+            background-color: #fcfcfc;
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+        }
+        #sign-in-footer>:nth-child(1){
+            width:300px;
+            height: 50px;
+            /* border: 1px solid red; */
+            margin:auto;
+            padding-top: 20px;
+
+        }
+        #sign-in-footer a{
+            /* width:348px;
+            height: auto; */
+            padding-left: 30px;
+            font-size: 11px;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            text-decoration-line: none;
+            color: rgb(104, 104, 250);
+        }
+        #sign-in-footer>:nth-child(1) a:hover{
+            text-decoration-line: underline;
+            cursor: pointer;
+            color: #b99230;
+        }
+        #sign-in-footer>:nth-child(2){
+            width:348px;
+            height: 50px;
+            /* border: 1px solid red; */
+            margin:auto;
+            position: relative;
+            bottom: 30px;
+
+        }
+        #sign-in-footer>:nth-child(2) p{
+            font-size: 11px;
+            text-align: center;
+            font-family:"Amazon Ember", Arial, sans-serif;
+            color: #757474;
+
+        }
+        
     </style>
 </head>
 <body>
@@ -149,7 +236,19 @@
     </div>
 
     <div id="new-to-amazon">
-        <p><hr> New to Amazon? <hr></p>
+        <hr id="line1">
+        <p> New to Amazon?</p>
+        <hr id="line2">
+    </div>
+    <div id="account-create-button"><button>Create your Amazon account</button></div>
+
+    <div id="sign-in-footer">
+        <div>
+            <a href="######"> Conditions of Use </a>
+            <a href="######">Privacy Notice</a>
+            <a href="######">Help</a>
+        </div>
+        <div><p>© 1996-2022, Amazon.com, Inc. or its affiliates</p> </div>
     </div>
 </body>
 </html>
