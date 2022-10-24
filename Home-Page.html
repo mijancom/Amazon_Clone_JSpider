@@ -8,7 +8,11 @@
     <title>Amazon.in</title>
     
     <style>
+        /* body{
+            background-color: #eaeded;
+        } */
         *{
+            /* background-color: #80848a;       */
             box-sizing: border-box;
             margin: 0%;
             padding: 0%;
@@ -575,7 +579,7 @@
         /* similar */
 
         .similar-main-div{
-            height: 410px;
+            height: 430px;
             width: 1350px;
             display: flex;
             /* border: 1px solid red; */
@@ -584,7 +588,7 @@
         .similar-div{
             width:311px ;
             height: 390px;
-            margin: 0px auto;
+            margin: 20px auto;
             background-color: white;
             font-family:"Amazon Ember", Arial, sans-serif;
             font-size: 11px;
@@ -612,6 +616,86 @@
             height: 95px;
             width: 122px;
         }
+
+
+        /* Slide */
+        .slide{
+            height: 350px;
+            width: auto;
+            /* background-color: #4d5968; */
+        }
+        .slide h1{
+            font-family:"Amazon Ember", Arial, sans-serif;
+            font-size: 24px;
+            margin: 10px auto auto 20px;
+        }
+
+.flt-left{
+  float:left;
+}
+.carousel{
+  width:100%;
+  height: 200px;
+  margin:20px auto;
+}
+.row{
+  width:90%;
+  padding:0;
+  overflow:hidden;
+  margin:auto;
+}
+.row-container{
+  width:2100px;
+  transition:0.5s;
+}
+.container{
+  width:200px;
+  height:280px;
+  float:left;
+  display:inline;
+  inline-size: initial;
+  margin:0px 5px;
+  /* border: 1px solid red; */
+}
+.container img{
+    width: 200px;
+    height: 280px;
+}
+.clear{
+  clear:both;
+}
+.controls{
+  width:100%;
+  margin:auto;
+}
+button{
+  border:none;
+  padding:10px 20px;
+  margin: auto;
+  background: none;
+  /* background-color: #f4faf4; */
+  font-weight:bold;
+  width: 30px;
+  /* border-radius:5px; */
+  height:50px;
+  /* position:absolute; */
+}
+button:hover{
+  background-color:#dfe2df ;
+  border-radius: 3px;
+}
+     
+     .medium-banner-div{
+        width: 1350px;
+        height: 300px;
+        background-color: #dee2e7;
+        /* margin: auto; */
+     }
+    .medium-banner-img{
+        width: 900px;
+        height: 280px;
+        margin:5px auto auto 240px;
+    }
     </style>
 </head>
 <body>
@@ -855,11 +939,152 @@
     </div>
     
 
+    <!-- Slide -->
 
+    <div class="slide">
+        <h1>Frequently repurchased in Beauty & Personal Care</h1>
+
+        <div class="carousel">
+            <button class='flt-left' onclick="slideRight(this);"><i class='fas fa-angle-right' style='font-size:36px'></i></button>
+            <div class="row flt-left">
+              
+             <div class="row-container">
+              
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/41o52JSQ3pL._AC_SY200_.jpg" />
+              
+            </div>
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/81koTixFtqL._AC_SY200_.jpg" />
+            </div>
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/51NYSJRXJ6L._AC_SY200_.jpg" />
+            </div>
+                <div class="container">
+              <img src="https://m.media-amazon.com/images/I/61tYLDAlf7L._AC_SY200_.jpg" />
+            </div>
+               <div class="container">
+              <img src="https://m.media-amazon.com/images/I/51QtN8cihaL._AC_SY200_.jpg" />
+            </div>
+               <div class="container">
+              <img src="https://m.media-amazon.com/images/I/51IbhYFWHbL._AC_SY200_.jpg" />
+            </div>
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/61FjVQa2R5L._AC_SY200_.jpg" />
+            </div>
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/817tF0q5+ML._AC_SY200_.jpg" />
+            </div>
+            <div class="container">
+              <img src="https://m.media-amazon.com/images/I/71eJAaD6aBL._AC_SY200_.jpg" />
+            </div>
+            
+              <div class="clear"></div>
+              </div>
+             
+              </div>
+             <button class='flt-left'  onclick="slideLeft(this);"><i class='fas fa-angle-left' style='font-size:36px'></i></button>
+              <div class="clear"></div>
+          </div>
+    </div>
+
+
+    <div class="similar-main-div">
+        <div class="similar-div"> 
+            <h1 class="Banner-h1">Sell on Amazon with 50% off on Selling Fee</h1>
+            <a href="####">
+                <img class="Banner-image" src="https://images-eu.ssl-images-amazon.com/images/G/31/amazonservices/landing/Option4_379x304._SY304_CB629577209_.jpg" alt="">
+                <a class="Banner-see-more" href="########">See More</a>
+            </a>
+            
+        </div>
+        <div class="similar-div">
+            <h1 class="Banner-h1">Birthday store</h1>
+            
+                <div class="image-4-div">
+                    <div>
+                        <a href="">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GWBdaystore/Artboard_1QC2_1x._SY116_CB662999955_.jpg" alt="">
+                            <p>Gift for men</p>
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GWBdaystore/Artboard_2QC2_1x._SY116_CB662999955_.jpg" alt="">
+                            <p>Gift for women</p>
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GWBdaystore/Artboard_3QC2_1x._SY116_CB662999955_.jpg" alt="">
+                            <p>Gift for boys</p>
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GWBdaystore/Artboard_4QC2_1x._SY116_CB662999955_.jpg" alt="">
+                            <p>Gift for girls</p>
+                        </a>    
+                    </div>
+                    
+                    
+                </div>
+                <a class="Banner-see-more" href="########">See More</a>
+            
+            
+        </div>
+
+        <div class="similar-div">
+
+            <h1 class="Banner-h1">Electronics devices for home office</h1>
     
+            <div class="image-4-div">
+                <div>
+                    <a href="">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_5._SY116_CB655805757_.jpg" alt="">
+                        <p>Smart Watches</p>
+                    </a>    
+                </div>
+                <div>
+                    <a href="">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_6._SY116_CB655805757_.jpg" alt="">
+                        <p>Tablets</p>
+                    </a>    
+                </div>
+                <div>
+                    <a href="">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_7._SY116_CB655805757_.jpg" alt="">
+                        <p>Laptops</p>
+                    </a>    
+                </div>
+                <div>
+                    <a href="">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_8._SY116_CB655805757_.jpg" alt="">
+                        <p>Monitors</p>
+                    </a>    
+                </div>
+                
+                
+            </div>
+            
+            <a class="Banner-see-more" href="########">See More</a>
+            
+        </div>
+        <div class="similar-div">
+            <h1 class="Banner-h1">Discover your home</h1>
+            <a href="####">
+                <img class="Banner-image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/soumya/OHL/HnK/Discover_Home/CC/PC-CC-758X608._SY304_CB636614722_.jpg" alt="">
+                <a class="Banner-see-more" href="########">See More</a>
+            </a>
+        </div>
+        
+      </div>
 
+      <!-- medium-Banner -->
 
-
+      <div class="medium-banner-div">
+        <img class="medium-banner-img" src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt="">
+      </div>
 
 
 
@@ -1004,3 +1229,50 @@
     </div>
 </body>
 </html>
+
+
+<script>
+
+var right = 0;
+var maxMargin;
+var jumpMargin = 150;
+
+function setWidth(){
+  var boxwidth = document.querySelector(".container").offsetWidth;
+  var displaywidth = document.querySelector(".row").offsetWidth;
+  var displayheight = document.querySelector(".row").offsetHeight;
+  var children = document.querySelectorAll(".row-container > .container").length;
+  var outerboxwidth = children * boxwidth + (children*10);
+  document.querySelector(".row-container").style.width = outerboxwidth+"px";
+  document.querySelectorAll("button")[0].style.height = displayheight+"px";
+  document.querySelectorAll("button")[1].style.height = displayheight+"px";
+  maxMargin = outerboxwidth - displaywidth;
+}
+
+function slideLeft(event){
+  var rowcont = document.querySelector(".row-container");
+  if(right <= -maxMargin){
+    event.preventDefault();
+  }
+  else{
+    right -= jumpMargin;
+  }
+   rowcont.style.marginLeft = right+"px";
+}
+
+function slideRight(event){
+  var rowcont = document.querySelector(".row-container");
+  if(right==0){
+    event.preventDefault();
+  }
+  else if(right >= maxMargin){
+    event.preventDefault();
+  }
+  else{
+     right += jumpMargin;
+  }
+  rowcont.style.marginLeft = right+"px";
+}
+
+window.onload=setWidth;
+</script>
