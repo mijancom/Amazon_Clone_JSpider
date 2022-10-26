@@ -309,6 +309,36 @@
 }
 
 
+/* deals-navbar */
+
+#deals-nav{
+    width: 1295px;
+    height: 200px;
+    display: flex;
+    margin:20px auto;
+    /* border: 1px solid teal; */
+}
+#deals-nav div{
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 90px;
+    margin: auto;
+}
+#deals-nav img{
+    width: 90px;
+    height: 90px;
+}
+#deals-nav div:hover{
+    cursor: pointer;
+}
+#deals-nav p{
+    margin: 10px 0px 0px 0px;
+    font-family:"Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    /* font-weight: bold; */
+    text-align: center; 
+}
+
 /* deals-body */
 
 *{
@@ -371,6 +401,7 @@
     font-family:"Amazon Ember", Arial, sans-serif;
     font-size: 13px;
     margin: 5px 0px 0px 20px;
+    font-weight: 400;
 
 }
 .produch-deal-name:hover{
